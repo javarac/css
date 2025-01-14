@@ -1,0 +1,109 @@
+html,
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.encabezado {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 300px;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulos h1, .titulos h2{
+    margin: 0;
+    text-align: right;
+    padding: 50px 70px 0px;
+    color: rgb(175, 18, 189);
+
+}
+
+.titulos h1 {
+    font-size: 3rem;
+
+}
+
+.titulos h2 {
+    padding: 0 70px;
+    font-size: 2.5rem;
+    font-style: italic;
+
+}
+
+.main {
+    padding: 0;
+    margin: 0;
+    background-color: lavender;
+}
+
+.producto {
+    padding: 30px 10px 30px 100px;
+    overflow: hidden;
+    clear: both;
+}
+
+.img {
+    padding: 0;
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    border: solid gray;
+}
+
+.packtitle {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.producto h4 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(53, 39, 39);
+}
+
+.descripcion {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(53, 39, 39);
+}
+
+.boton {
+    border: 2px solid rgb(53, 39, 39);
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(176, 162, 236);
+    cursor: pointer;
+}
+
+.footer {
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(168, 163, 161);
+    font-size: 18px;
+    text-align: center;
+
+}
